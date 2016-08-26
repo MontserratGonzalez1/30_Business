@@ -1,13 +1,35 @@
 .header {
 	background-image: url("../image/large.jpg");
 	background-size: cover;
-	opacity: 0.6;
+	opacity: 10;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li  {
+	float: left;
+}
+
+header nav ul li a {
+	display: block;
+	margin-top: 40px;
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background:#007fcc;
+	color: #ffffff;
 }
 
 .bazul {
 	background-color: #0f50a0;
 	height: 200px;
 	opacity: 0.7;
+	padding-left: 200px;
 }
 
 .boton-prueba {
@@ -21,6 +43,33 @@
 	color:#ffffff;
 }
 
+.separador {
+	position: relative;
+	top: -70px;
+	left: 50%;
+}
+
+.logo2 {
+	width: 300px;
+	height: 50px;
+	float: right;
+	margin-top: -40px;
+}
+
+.mov-sub {
+	position: relative;
+	left: 190px;
+}
+
+.flecha {
+	position: relative;
+	left: 350px;
+}
+
+.fondo2 {
+	background-image: url("../image/large.jpg");
+	background-size: 100%;
+}
 
 /* EXTRAS */
 .blanco {
@@ -33,4 +82,46 @@
 
 .azul-c {
 	color: #007fcc;
+}
+
+.top-40 {
+	margin-top: 40px;
+}
+
+.top-100 {
+	margin-top: 100px;
+}
+
+.top-180 {
+	margin-top: 180px;
+}
+
+
+.bt-90 {
+	margin-bottom: 90px;
+}
+
+.bt-150 {
+	margin-bottom: 150px;
+}
+
+.pad30 {
+	padding:30px;
+}
+
+.right70 {
+	margin-right: 70px;
+}
+
+.left70 {
+	margin-left: 70px;
+}
+
+
+.padleft-20 {
+	padding-left: 20px;
+}
+
+.text-center {
+	text-align: center;
 }
