@@ -1,0 +1,36 @@
+.header {
+	background-image: url("../image/large.jpg");
+	background-size: cover;
+	opacity: 0.6;
+}
+
+.bazul {
+	background-color: #0f50a0;
+	height: 200px;
+	opacity: 0.7;
+}
+
+.boton-prueba {
+	padding: 10px;
+	border-radius: 9px;
+	height: 50px;
+	width: 180px;
+	border: 2px solid #ffffff;
+	background-color: none;
+	font-size: 22px;
+	color:#ffffff;
+}
+
+
+/* EXTRAS */
+.blanco {
+	color: #ffffff;
+}
+
+.azul-f {
+	color: #0f50a0;
+}
+
+.azul-c {
+	color: #007fcc;
+}
