@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+	header label {
+		display: inline-block;
+	}
+
+	header ul {
+		flex-direction: column;
+
+	}
+
+	 li {
+		border-top: 1px solid white;
+	}
+
+	#btn-menu [type="checked"]:.menu {
+		margin:0;
+	}
+   
+	 #iconos, #logo, #flecha{
+	  	display: none;
+	}
+		
+	footer {
+	 	margin-top: 30%;
+	 }
+
+}

@@ -5,24 +5,29 @@
 	  	<title>User Testing 360°</title>
 	  	<link rel="stylesheet" type="text/css" href="css/main.css">
 	  	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
 	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/icommon.css">
 	  	<link rel="stylesheet" type="text/css" href="css/queries.css">
-	  	<script src="js/bootstrap.min.js"></script>
-	  	<script src="js/jquery-1.11.3.min.js"></script>
+	  	
 	</head>
 	<body>
-		<div class="container-fluid">
+		
 			<header class="header">
 				<div class="row">
-					<div class="col-lg-7">
+					<div class="col-lg-7 col-xs-7">
 						<a href="">
 				 			<img src="image/user-r.png" alt="logo" class="animated pulse top-40">
+				 			<input type="checkbox">
+							<label for="btn-menu">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</label>
 						</a>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-lg-5 col-xs-5">
 						<nav class="menu-fixed">
 							<ul>
 								<li><a href=""> ¿Qué me ofrece</a></li>
@@ -30,12 +35,12 @@
 								<li><a href=""> ¿por qué usarlo?</a></li>
 								<li><a href=""> Contáctanos</a></li>
 							</ul>
-						</nav>
-					</div>
+						</nav>					
+					</div> 
 				</div>
-
+			
 				<div class="row text-center">
-					<div class="col-lg 12">
+					<div class="col-lg 12 col-xs-12">
 						<h1 class="blanco top-180">Obtén videos de pesonas reales <br>
 						utilzando tu sitio web, en 1 hora</h1>
 					</div>
@@ -43,21 +48,45 @@
 				
 				<div class="bazul top-100">
 					<div class="row">
-						<div class="col-lg-6  top-40">
-							<h3 class="blanco ">PRUEBA GRATUITA</h3>
+						<div class="col-lg-6 col-xs-12 top-40">
+							<h3 class="blanco">PRUEBA GRATUITA</h3>
 							<p class="blanco ">Obtén un video gratis de 5 minutos</p>
 						</div>	
-						<div class="col-lg-6 top-100">
-							<a href="https://www.usertesting.com/">
-							<div class="boton-prueba">
-							Pruebalo gratis
-							</div>
-							</a> 
+						<div class="col-lg-6 col-xs-12 top-100">
+							<a href="#ventana" class="btn btn-primary btn-lg modal.fade modal-content"> Pruebalo gratis </a>
+							<div id="ventana" class="modal">
+								<h2 class="modal-title">Formulario User Testing 360</h2>
+								<a href="# "> X 	</a>
+								<div class="modal-body">
+											<form>
+												<div class="form-group">
+													<label class="form-control"></label>
+												</div>
+											</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Enviar </button>
+								</div>
+							</div>		
+								<!-- NO SE ACTIVA BOTON-
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="btn close" data-dismiss="modal" aria-label="close">
+												<span aria-hidden="true">&times;</span>
+											</button> 
+											</div>  -->
+											
+							
+										<!-- FORMULARIO-->
+										
+										<!--FOOTER FORMULARIO-->
+										
+								
 						</div>
 					</div>
-				</div>
+				</div>		 <!--cierre barra azul-->				
 			</header>
-			
 			<section>
 				<h2 class="azul-f text-center top-100">Nuestros servicios</h2>	
 					<div class="row bt-150 top-100">
@@ -86,19 +115,19 @@
 
 				<div class="row">	
 					<div class="col-lg-6">
-						<h2 class="mov-sub azul-f">Ejemplo de</h2>
-						<img src="image/logo-2.jpg" class="logo2">
-						<p class="top-40 left70">En este video te damos un ejemplo  de un interante de nuestro panel evaluando la experiencia de usa de <br>
+						<h2 class="mov-sub azul-f col-xs-12">Ejemplo de</h2>
+						<img src="image/logo-2.jpg" class="logo2" id="logo">
+						<p class="top-40 left70 col-xs-12">En este video te damos un ejemplo  de un interante de nuestro panel evaluando la experiencia de usa de <br>
 						<a href=""> mimediamanzana.com </a> <br>
 						El objetivo de User Testing	360	es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una expeiencia de uso satisfactoria.</p>
-						<img src="image/flecha.png" class="flecha top-40">
+						<img src="image/flecha.png" class="flecha top-40 animated lightSpeedOut" id="flecha">
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-xs-12">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 
-				<div class="row top-100 bt-90"> <!--FONDO FOTO E ICONOS EN COLUMNA-->
+				<div class="row top-100 bt-90" id="iconos"> <!--FONDO FOTO E ICONOS EN COLUMNA-->
 					<div class="col-lg-6 fondo2 top-40"> <!-- FONDO FOTO-->
 						<div class="row"> <!--PASO 1-->
 								<div class="col-lg-1">
@@ -108,15 +137,16 @@
 									<p class="izq" id="margen">Ingresa tus datos en nuestra página <br> y forma parte de nuestra <br> comunidad.</p>
 								</div>
 						</div>		
+					</div>	
 				</div>		
 				<!-- AQUI VA EL SEPARADOR ICONO FLECHA -->
 				<hr>
 				<img src="image/separador.png" id="separador2">
 
 				<div class="row top-100">	
-					<div class="col-lg-6">
+					<div class="col-lg-6" id="iconos">
 						<h2 class="mov-sub azul-f">Por qué usar</h2>
-							<img src="image/logo-2.jpg" class="logo2">
+							<img src="image/logo-2.jpg" class="logo2" id="logo">
 						<div class="col-lg-12 left30 right30 bt-90">	
 							<p class="top-40">En la era	 en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con  <a href="">User Testing 360</a> puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con  <a href="">User Testing 360</a> podrás entender: </p><br>
 							<p>* ¿Cómo tu público objetivo verdaderamente usa tu producto?</p> <br>
@@ -131,21 +161,45 @@
 					</div>
 				</div>
 				<!-- BARRA AZUL-->
-				<div class="bazul">
+				<div class="bazul top-100">
 					<div class="row">
-						<div class="col-lg-6 top-40">
-							<h3 class="blanco ">PRUEBA GRATUITA</h3>
+						<div class="col-lg-6 col-xs-12 top-40">
+							<h3 class="blanco">PRUEBA GRATUITA</h3>
 							<p class="blanco ">Obtén un video gratis de 5 minutos</p>
 						</div>	
-						<div class="col-lg-6 top-100">
-							<a href="https://www.usertesting.com/">
-							<div class="boton-prueba">
-								Pruebalo gratis
-							</div>
-							</a> 
-						</div>
+						<div class="col-lg-6 col-xs-12 top-100">
+							<a href="#ventana1" class="btn btn-primary btn-lg" data-toggle="modal"> Pruebalo gratis </a>
+							<div id="ventana" class="modal fade">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="btn close" data-dismiss="modal" aria-label="close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<h2 class="modal-title">Formulario User Testing 360</h2>
+										</div>
+										<!-- FORMULARIO-->
+										<div class="modal-body">
+											<form>
+												<div class="form-group">
+													<label class="form-control">
+														<input type="text" name="Nombre" class="form-control">
+														<input type="text" name="Email" class="form-control">
+														<input type="text" name="URL" class="form-control">
+													</label>
+												</div>
+											</form>
+										</div>
+										<!--FOOTER FORMULARIO-->
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Enviar </button>
+										</div>
+									</div>
+								</div>
+							</div>						
+						</div> <!--cierre col de boton prueba-->
 					</div>
-				</div>
+				</div> <!-- cierre barra azul-->
 			</section>
 
 			<footer>
@@ -160,8 +214,8 @@
 					</div> 
 				</div>
 			</footer>
-
-
-		</div><!--cierre container GENERAL-->
+		
+		<script src="jquery.js"></script>
+		<script src="bootstrap-modal.js"></script>
     </body>
 </html>

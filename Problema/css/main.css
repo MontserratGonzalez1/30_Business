@@ -4,6 +4,12 @@
 	opacity: 17;
 }
 
+header label {
+	display: none;
+	width: 20px;
+	padding: 10px;
+}
+
 header nav ul {
 	list-style: none;
 }
@@ -21,11 +27,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+	cursor: pointer;
 	background:gray;
 	color: #ffffff;
 	opacity: 0.2;
 	padding: 5px;
 	border-radius: 9px;
+}
+
+#btn-menu {
+	display: none;
 }
 
 .bazul {
@@ -35,16 +46,6 @@ header nav ul li a:hover {
 	padding-left: 200px;
 }
 
-.boton-prueba {
-	padding: 10px;
-	border-radius: 9px;
-	height: 50px;
-	width: 180px;
-	border: 2px solid #ffffff;
-	background-color: none;
-	font-size: 22px;
-	color:#ffffff;
-}
 
 .separador {
 	display: block;
@@ -73,7 +74,8 @@ header nav ul li a:hover {
 
 .flecha {
 	position: relative;
-	left: 350px;
+	right: 350px;
+	top: 150px;
 }
 
 .fondo2 {
@@ -90,7 +92,7 @@ header nav ul li a:hover {
 
 .pie {
 	background-color: #3c415e;
-	margin-top: -90px;
+	margin-top: 0px;
 	height: 150px;
 }
 
