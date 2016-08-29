@@ -47,6 +47,14 @@ header nav ul li a:hover {
 }
 
 
+#formulario {
+   visibility: visible;
+   opacity: 0.5;
+   margin-top: -300px;
+}
+
+
+
 .separador {
 	display: block;
 	position: relative;
